@@ -1,0 +1,4 @@
+awk '//{print $1}' 1001.txt|xargs -t -I {} mv './{}.jpg' './1001'
+
+echo `date` | awk '{print $1}' | xargs -I {} touch './{}'
+
