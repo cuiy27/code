@@ -9,3 +9,5 @@ echo `date` | awk '{print $1}' | xargs -I {} touch './{}'
 777888999
 
 000000000
+
+add readme on dir code on this ver
